@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <!-- Elegant deep sapphire-indigo gradient for financial trust -->
+    <linearGradient id="rupeeBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="50%" stop-color="#1d4ed8" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+  <!-- Background squircle/rounded container -->
+  <rect width="64" height="64" rx="18" fill="url(#rupeeBg)" />
+  
+  <!-- Subtle inner border detailing -->
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="none" stroke="#60a5fa" stroke-width="1.5" stroke-opacity="0.5" />
+  
+  <!-- Crisp white Indian Rupee Symbol (₹) centered perfectly -->
+  <text x="32" y="45" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="800" font-size="36" fill="#ffffff" text-anchor="middle">₹</text>
+</svg>
